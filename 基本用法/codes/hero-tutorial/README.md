@@ -1,4 +1,4 @@
-# todolist
+# hero-tutorial
 
 ## Project setup
 ```

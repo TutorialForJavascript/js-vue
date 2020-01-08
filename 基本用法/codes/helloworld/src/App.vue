@@ -7,6 +7,14 @@
     <router-view/>
   </div>
 </template>
+<script>
+export default {
+  name: "app",
+   provide: {
+    foo: 'bar'
+  },
+};
+</script>
 
 <style lang="stylus">
 #app

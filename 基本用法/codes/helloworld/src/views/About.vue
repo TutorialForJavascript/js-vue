@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <h1>about {{ foo }}</h1>
     <h1>This is an about page</h1>
     <p>I'm {{ user }} !</p>
     <a v-bind:href="url">baidu...</a>
@@ -44,6 +45,7 @@
 </template>
 <script>
 export default {
+  inject: ['foo'],
   data: function() {
     return {
       user: "hsz",
